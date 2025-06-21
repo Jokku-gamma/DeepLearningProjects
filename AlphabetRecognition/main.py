@@ -41,7 +41,8 @@ iface=gr.Interface(
     description="Upload an image of a single handwritten English Letter",
     theme=gr.themes.Soft(),
     flagging_mode="never",
-    
+    fill_width=True,
+    fill_height=True,
 )
 
 
